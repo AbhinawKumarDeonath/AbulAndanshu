@@ -1,0 +1,72 @@
+/* src/PhotoGallery.css */
+.my-masonry-grid {
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  .masonry-item {
+    margin-bottom: 30px;
+  }
+  
+  .masonry-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .button-group .btn {
+    transition: all 0.3s;
+  }
+  
+  .button-group .btn.active {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+/* src/PhotoGallery.css or a new CSS file */
+.carousel img {
+    max-height: 500px; /* Adjust based on your preference */
+    object-fit: cover;
+  }
+.button-group{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+/* src/ResponsiveImage.css */
+/* src/ResponsiveImage.css */
+.responsive-container {
+    position: relative;
+    width: 100%; /* Makes the div take the full width of its parent */
+    padding-bottom: 56.25%; /* Maintains a 16:9 aspect ratio */
+    /* overflow: hidden; */
+    background-color: #f0f0f0; /* Fallback background color */
+  }
+  
+  .responsive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+;
+    
+    object-position: center; /* Centers the image */
+  }
+  
